@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository and specify the branch
-                git branch: 'main', url: 'https://github.com/cclarke74/simplilearn-spring-jpa.git'
+               // git branch: 'main', url: 'https://github.com/cclarke74/simplilearn-spring-jpa.git'
 
                 echo 'Building the Project with maven compile'
 
